@@ -13,3 +13,5 @@ add_library(game
 )
 
 target_link_libraries(game SDL2::SDL2)
+add_executable(pong Pong.cpp)
+target_link_libraries(pong game)
