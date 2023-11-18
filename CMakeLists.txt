@@ -10,6 +10,8 @@ add_library(game
         Vector2.h
         Game.cpp
         Game.h
+        Math.cpp
+        Math.h
 )
 
 target_link_libraries(game SDL2::SDL2)
